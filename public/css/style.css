@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+html{ background:#e2e2e2;}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,html{margin:0;padding:0;}
+body{ font-size:1rem; font-family:"微软雅黑",Arial; background:#fff;-webkit-text-size-adjust:100%; max-width:750px; overflow-x:hidden; margin:0 auto; background:url('../images/bg02.gif') no-repeat top left;}
+/*首页*/
+.header,.logo,.content,.footer{width:100%;}
+.header img{max-width:750px; width:100%;}
+.logo img{max-width:750px; width:100%;}
+.content{padding:3%; }
+.content .goods{width:46%; float:left; margin:0 auto; text-align:center; background-color:#f7f7f7;  border-radius:0.8rem; padding-top:5%; opacity: 0.7;}
+.content .goods .goodsinfor{width:90%; margin:0 auto; text-align:center; }
+.content .goods .goodsinfor div {font-size:1.4rem; line-height: 2.5rem; }
+.content .goods .goodsinfor .fr{color:red;}
+.content .goods .goodsImg{margin-bottom:0.8rem; width:90%;}
+.content .goods .goodsImg img{max-width:98%; }
+.left2{margin-left:2% !important;}
+.top5p{margin-top:5% !important;}
+.content .goods .gouwuche{padding-top: 1rem;padding-bottom: 1rem; border-top:1px solid #dfdfdf;width:90%;margin:0 auto;margin-top:1rem !important; }
+.footer{position: fixed;bottom: 0;max-width: 750px; background-color:#fff;}
+.footer ul li{float:left; width:30%; margin:0px auto; text-align:center; line-height:3rem;background-color:#eeeeee;margin-left:1%;}
+.footer .footerimg{width:7%;margin:0px auto;}
+.footer .footerimg img{width:100%;}
+/*列表*/
+.listLogo{padding-left:10%;padding-right:10%; }
+.listlogoimg{width:50%;}
+.listlogoimg img{width:100%}
+.listLogo .listlogoli{ padding-right:5rem; width:30%;}
+.listLogo .listlogoli li{padding-left:4rem; line-height:3rem; margin-top:2rem;}
+.li1{background:url('../images/tu1.gif') no-repeat left center;}
+.li2{background:url('../images/tu2.gif') no-repeat left center;}
+.li3{background:url('../images/tu3.gif') no-repeat left center;}
+.listlogoimg p{line-height: 2rem;font-size: 1.2rem;color: #262626;margin-top:1rem;}
+.top3{margin-top:10%;}
+.listlogoli img{width:100%}
+.flower{width:100%;}
+.flowerleft{width: 30%;margin-left: 15%;}
+
+/*下单页*/
+.orderbody{}
+.order{width:90%;padding:5%;}
+.orderfl{background:url('../images/fl.gif') no-repeat left top;float:left;width:28px; height:644px;}
+.orderfr{background:url('../images/fr.gif') no-repeat left top;height:644px;float:left;width:31px;}
+.ordermm{background:url('../images/mm.gif') repeat-x left top;float:left; width:85%;height:560px; margin:0 auto;text-align:center; padding-top:84px;}
+.ordertitle{font-size: 1.4rem;line-height: 2rem;margin-top: 2rem;}
+.orderbuyer{padding-top:0rem; padding-left:1rem;}
+.dec{width:26px;height:26px; background:url('../images/jjh.gif') no-repeat;display:block;border: 1px solid #CCC;
+cursor: pointer;border-top-left-radius: 4px;border-bottom-left-radius: 4px; background-position:0 0; float:left;}
+#num {float: left;width: 50px;height: 28px;line-height: 26px;text-align: center;border-width: 1px 0;border-radius: 0;padding: 0px;border: 1px solid #CCC;}
+.lnc{display: block;float: left;width: 26px;height: 26px;border: 1px solid #CCC;cursor: pointer;background: url(../images/jjh.gif) no-repeat;background-position: -26px 0;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
+.formleft{width:20%;line-height:2rem}
+.formright{width:80%}
+
+
+
+
+input[type="text"]{ height:34px; line-height:34px; border-radius:3px; border:1px solid #ccc; width:94%; padding:0px 2%;}
+.submit{height: 40px;width: 77%;}
+
+a{text-decoration:none; font-family:"微软雅黑";}
+a:hover{text-decoration:none;}
+em,i{font-style:normal;}
+li{list-style:none;}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+input{font-family:"微软雅黑"; }
+select{font-family:"微软雅黑";}
+p{word-wrap:break-word;}
+.c{clear:both;}
+.e{display:inline-block;*display:inline;*zoom:1;height:100%;width:1px;margin-left:-1px;vertical-align:middle;}
+.fr{ float:right;}
+.fl{ float:left;}
+
+
+@media screen and (max-width:450px){
+	.content .goods .goodsinfor div {font-size:1.2rem; line-height: 2.5rem; }
+	.listLogo .listlogoli{ padding-right:1rem; width:auto;}
+	.listLogo .listlogoli li{margin-top:0.5rem;}
+	.listlogoimg p{font-size: 1.0rem;}
+	.ordermm{ width:82%;}
+
+
+}
+@media screen and (max-width:400px){
+	.content .goods .goodsinfor div {font-size:1.0rem; line-height: 2.5rem; }
+	.listlogoimg p{font-size: 1.0rem;}
+	.listLogo .listlogoli{ padding-right:0rem; }
+}
+
+@media screen and (max-width:330px){
+	.content .goods .goodsinfor div {font-size:0.8rem; line-height: 2.5rem; }
+	.ordermm{ width:79%; }
+	.orderbuyer{font-size:0.8rem;}
+}
+
+
